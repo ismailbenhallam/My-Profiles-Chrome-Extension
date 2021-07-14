@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Profiles",
+  "version": "0.0.1",
+  "author": "Ismaïl BENHALLAM",
+  "description": "This extension will hold your profiles' links (GitHub, LinkedIn...) for quick access",
+
+  "browser_action": {
+   "default_icon": "icons/icon.png",
+   "default_popup": "views/popup.html"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+
+  "background":{
+    "scripts": ["js/background.js"],
+    "persistent": false
+  }
+}
