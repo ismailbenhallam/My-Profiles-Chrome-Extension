@@ -1,4 +1,4 @@
-# My-Profiles-Chrome-Extension
+# <img src="https://user-images.githubusercontent.com/36603897/125962426-6350ac6b-36a8-4bef-86dc-704d4afb261c.png" width="40"/> My-Profiles-Chrome-Extension
 
 This extension will hold your profiles' links (GitHub, LinkedIn...) for quick access.
 
