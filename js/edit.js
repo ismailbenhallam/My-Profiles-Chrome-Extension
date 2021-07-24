@@ -18,7 +18,6 @@ networks.forEach((n, ind) => {
             type="url"
             class="form-control"
             id="${n}"
-            aria-describedby="GitHub"
           />
         </div>`
     );
