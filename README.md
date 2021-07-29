@@ -14,7 +14,7 @@ You can download this extention from [Chrome Web Store](https://chrome.google.co
 
 ## Shortcuts :yum:
 
-- `Ctrl+M` (`Command+M` on Mac) --> quickly launch the extension.
+- `Ctrl+m` (`Command+m` on Mac) --> quickly launch the extension.
 - When the popup is displayed :
   - `g` -> GitHub
   - `l` -> LinkedIn
