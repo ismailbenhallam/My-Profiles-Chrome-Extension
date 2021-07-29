@@ -11,11 +11,23 @@ networks.forEach((n) => {
       list.insertAdjacentHTML(
         "beforeend",
         `<div class="col text-center">
-        <a href="${data[n]}" target="_blank">
+        <a id="sn-${n}" href="${data[n]}" target="_blank" title="${n}">
             <img src="../icons/${icons[n]}" height="55" width="55"/>
         </div>
     </li>`
       );
+
+    // Add shortcuts
+    document.addEventListener(
+      "keyup",
+      (event) => {
+        if (event.key == n.charAt(0).toLowerCase()) {
+          let sn = document.getElementById("sn-" + n);
+          if (sn) sn.click();
+        }
+      },
+      false
+    );
   });
 });
 
@@ -26,4 +38,18 @@ document.addEventListener(
     if (event.key == "e") document.getElementById("edit").click();
   },
   true
+);
+
+// Add event listener on "a" to open all the social networks profiles
+document.addEventListener(
+  "keyup",
+  (event) => {
+    if (event.key == "a") {
+      networks.forEach((n) => {
+        let sn = document.getElementById("sn-" + n);
+        if (sn) sn.click();
+      });
+    }
+  },
+  false
 );

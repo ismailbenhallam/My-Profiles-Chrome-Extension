@@ -49,7 +49,6 @@ let formSubmitedCallback = () => {
   // Save networks
   networks.forEach((n, idx) => {
     chrome.storage.sync.set({ [n]: document.getElementById(n).value }, () => {
-      console.log(n);
       if (idx === networks.length - 1) {
         location.href = "popup.html";
       }
