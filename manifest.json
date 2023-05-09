@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "My Profiles",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Ismaïl BENHALLAM",
   "description": "This extension will hold your profiles' links (GitHub, LinkedIn...) for quick access",
 
