@@ -10,9 +10,10 @@ networks.forEach((n) => {
     if (data[n])
       list.insertAdjacentHTML(
         "beforeend",
-        `<div class="col text-center">
-        <a id="sn-${n}" href="${data[n]}" target="_blank" title="${n}">
-            <img src="../icons/${icons[n]}" height="55" width="55"/>
+        `<div>
+            <a id="sn-${n}" href="${data[n]}" target="_blank" title="${n}">
+                <img src="../icons/${icons[n]}" height="55" width="55"/>
+            <a/>
         </div>
     </li>`
       );

@@ -20,6 +20,7 @@ You can download this extention from [Chrome Web Store](https://chrome.google.co
   - `l` -> LinkedIn
   - `t` -> Twitter
   - `i` -> Instagram
+  - `d` -> Dev.to
   - `f` -> Facebook
   - `s` -> Stackoverflow
   - `c` -> CodePen
